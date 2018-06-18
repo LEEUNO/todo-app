@@ -22,6 +22,7 @@
 .AddItem {
   position: fixed;
   width: 100%;
+  background-color: white;
   left: 0;
   bottom: 0;
   padding: 12px;

@@ -50,7 +50,7 @@ ul {
 }
 
 li {
-  display: inline-block;
+  /* display: inline-block; */
   margin: 0 10px;
 }
 
