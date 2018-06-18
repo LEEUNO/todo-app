@@ -1,6 +1,6 @@
 <template>
   <div class="Home">
-    <h1>Home</h1>
+    <dashboard></dashboard>
     <list-item></list-item>
     <add-item></add-item>
   </div>
@@ -9,6 +9,8 @@
 <script>
   import ListItem from './ListItem'
   import AddItem from './AddItem'
+  import Dashboard from './Dashboard'
+
   export default {
     name: 'Home',
     data () {
@@ -17,13 +19,14 @@
     },
     components: {
       ListItem,
-      AddItem
+      AddItem,
+      Dashboard
     }
   }
 </script>
 <style lang="scss" scoped>
 .Home {
-  padding: 0 12px;
+  /* padding: 0 12px; */
   padding-top: 52px;
 }
 </style>

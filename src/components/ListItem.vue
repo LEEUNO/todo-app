@@ -1,6 +1,5 @@
 <template>
   <div class="ListItem">
-    <h4>List Container</h4>
     <div class="list-wrapper">
       <ul>
         <li
@@ -30,6 +29,7 @@
   margin-top: 12px;
   /* background-color: #ededed; */
   min-height: 300px;
+  padding: 12px;
   padding-bottom: 140px;
   .list-wrapper {
     ul {
