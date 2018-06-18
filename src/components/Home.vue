@@ -26,7 +26,6 @@
 </script>
 <style lang="scss" scoped>
 .Home {
-  /* padding: 0 12px; */
   padding-top: 52px;
 }
 </style>
